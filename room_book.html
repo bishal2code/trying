@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Cottage | Room Book</title>
+    <link rel="stylesheet" href="room_bool.css">
+</head>
+<body>
+    <div id="nav" class="nav">
+        <div class="left_nav">
+            <div class="displaying_left_nav">
+                <img id="menu_bar" src="Photo/menu.png">
+                <a href=""><div class="first-child">Green </div><div class="second-child">Cottage</div></a>
+            </div>
+            <div class="responsive_nav">
+                <div id="responsive_menu" class="dropdown_content">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li class="active"><a href="/room_book.html">Room Book</a></li>
+                        <li><a href="#">Food</a></li>
+                        <li><a href="#">Food Menu</a></li>
+                        <li><a href="#">About Us</a></li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="middle_nav">
+            <div class="link_nav">
+                <a  href="/index.html">Home</a>
+                <a class="active" href="room_book.html">Room Book</a>
+                <a href="#">Food</a>
+                <a href="#">Food Menu</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+        <div class="right_nav">
+            <div class="log-info">
+                <a href="/login.html">Login</a>
+            </div>
+        </div>
+    </div>
+    <!-- Room Book -->
+    <div class="room_book">
+        <div class="room_book_info">
+            <div class="left_form">
+                <form action="" method="post">
+                    <div class="title">Book Room</div>
+
+                    <label >Enter Your Full Name</label>
+                    <input required oninput="name_change()" type="text" placeholder="" id="name">
+
+                    <label >Temporary or Permanent Address </label>
+                    <input required type="text" placeholder="" id="address">
+
+                    <label for="age">Age</label>
+                    <select required name="age" id="age">
+                        <option value="none">0</option>
+                        <option  value="16">16</option>
+                        <option  value="17">17</option>
+                        <option  value="18">18</option>
+                    </select>
+
+                    <label for="total-guest">No of Guest(Including Childean age more than 10)</label>
+                    <div class="no-of-guest">
+                        <input required id="guest" oninput="guest_change()" type="number" name="guest">
+                    </div>
+
+                    <label for="date">Arival Date (Click Calender Icon )</label>
+                    <input required oninput="date_change()" type="date" name="" id="date">
+
+                    <label for="none">Phone Number</label>
+                    <input required type="number" name="" id="none">
+
+                    <label for="id">Id (such as Driving Liscence, Nagrita,Blue Book)</label>
+                    <input required type="file" id="id" accept="image/png, image/gif, image/jpeg, image/jpg">
+
+
+                    <div class="pay-now"><button id="pay-button" type="submit">Pay & Book Room </button></div>
+
+
+
+
+                </form>
+            </div>
+
+            <div class="right_preview">
+                <div class="bill">
+                    <div class="name-contact"><h2 class="hotel_name">Pakari Green Cottage<br>
+                        Devdaha-0,Pakari<br>
+                        Rupandehi,Nepal</h2>
+                        <div class="phone-number">
+                            <p>Phone no : 9800000000</p>
+                        </div>
+                    </div>
+
+                    <div id="today_date" class="date">Date : </div>
+
+                    <div class="name"><h4 id="pname">Name : </h4></div>
+
+                    <div class="arival-room">
+                        <p id="pdate" >Date of Arival : </p>
+                        <p>Room no : 100</p>
+                    </div>
+
+                    <div class="total-child-adult">
+                        <p id="pguest">Total Guest : </p>
+                        <p id="padult">Adult : </p>
+                    </div>
+
+                    <table style="width: 100%;border-collapse: collapse;">
+                        <tr>
+                            <th style="width: 40%;">Particulars</th>
+                            <th style="width: 20%;">Qnty Room</th>
+                            <th style="width: 20%;">Rate</th>
+                            <th style="width: 20%;">Total</th>
+                        </tr>
+                        <tr style="width: 100%;">
+                            <td id="room_info" style="width: 40%;height: 100%;">&nbsp</td>
+                            <td id="room_qnty" style="width: 20%;height: 100%;">&nbsp</td>
+                            <td id="rate" style="width: 20%;">&nbsp</td>
+                            <td id="total_rate" style="width: 20%;">&nbsp</td>
+                        </tr>
+                    </table>
+
+                    
+                    <div class="advance">
+                        <p id="advance"></p>
+                    </div>
+
+                    <div class="payment-method">
+                        *Payment Method Esewa Only
+                        <div class="esewa">
+                            <img src="unnamed.png" >
+                            E-sewa
+                        </div>
+                    </div>
+
+                    <div class="pay-now"> <button onclick="buttonclick()">Pay & Book Room </button></div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="special_js.js"></script>
+</body> 
+</html>
