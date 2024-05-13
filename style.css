@@ -334,7 +334,17 @@ input[type=date]::-webkit-calendar-picker-indicator{
     justify-content: center;
     margin-top: 25%;
 }
-.book_now a,.book_now_m {
+.book_now a {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    border: 2px solid black;
+    padding: 5px 15px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.557);
+}
+.book_now_m a{
     text-decoration: none;
     color: black;
     font-size: 23px;
