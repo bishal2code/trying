@@ -629,9 +629,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
     .result a{
         font-size: 19px;
     }
-    #content::after{
-        content: "(Click Left Button)";
-    }
+    
     /* Footer */
     .footer_contents{
         border-bottom: 1px solid black;
