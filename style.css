@@ -334,14 +334,14 @@ input[type=date]::-webkit-calendar-picker-indicator{
     justify-content: center;
     margin-top: 25%;
 }
-.book_now a{
+.book_now a,.book_now_m {
     text-decoration: none;
     color: black;
     font-size: 23px;
     border: 2px solid black;
     padding: 5px 15px;
     border-radius: 2px;
-    box-shadow:  4px 4px 6px rgba(0, 0, 0, 0.557);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.557);
 }
 .book_now a:hover,.book_now_m a:hover{
     transition: 0.2s;
@@ -590,7 +590,9 @@ input[type=date]::-webkit-calendar-picker-indicator{
         display: flex;
         justify-content: center;
         margin-top: 10%;
+        
     }
+    
     /* Checking avaibility */
     .check_avaibility{
         display: flex;
