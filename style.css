@@ -146,7 +146,7 @@
 }
 /* Landing Screen */
 .landing_screen{
-    background:linear-gradient(180deg, #4f90ff, #2496ff,#65b5ff,#6fc1ff,#98ffec);
+    
     background-position: center; 
     height: 100vh;
     display: flex;
@@ -294,7 +294,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
     height: 100vh;
     width: 100%;
     display: flex;
-    background:linear-gradient(180deg,#98ffec,#00fbcd,#6eeeff,#6ecfff);
+    
 
 }
 .photo_dining_hall{
