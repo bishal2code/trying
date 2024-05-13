@@ -16,4 +16,14 @@ function menu(){
     }
 }
 
+var todat_date = document.getElementById("date_selector")
+var date = new Date()
+var month;
+var newmon = String(date.getMonth)
+if(date.getMonth < 10){
+    todat_date.value = date.getFullYear() + "-0" + date.getMonth() + "-"+ date.getDay()
+}
+else{
+    month = newmon
+}
 
