@@ -321,18 +321,17 @@ input[type=date]::-webkit-calendar-picker-indicator{
 }
 .details_text h1{
     text-align: center;
-    margin-top: 20px;
     border-bottom: 2px solid black;
-    font-size: 3rem;
+    font-size: 25pz;
 }
 .details_text p{
-    font-size: 2rem;
+    font-size: 20px;
     margin: 20px 0px;
 }
 .details_text .book_now{
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    align-items: center;
 }
 .book_now a {
     
@@ -406,12 +405,11 @@ input[type=date]::-webkit-calendar-picker-indicator{
 }
 .detailed_room_text h1{
     text-align: center;
-    margin-top: 20px;
     border-bottom: 2px solid black;
-    font-size: 3rem;
+    font-size: 25px;
 }
 .detailed_room_text p{
-    font-size: 2rem;
+    font-size: 20px;
     margin: 20px 0px;
 }
 .detailed_room_text .book_now{
@@ -569,12 +567,12 @@ input[type=date]::-webkit-calendar-picker-indicator{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60vh;
+        height: 55vh;
     }
     .photo_dining_hall img, .room_image_m img{
         border-radius: 4px;
         width: 90%;
-        height:50vh;
+        height:40vh;
     }
     .details_dining_hall,.room_description_m{
         display: flex;
@@ -599,7 +597,7 @@ input[type=date]::-webkit-calendar-picker-indicator{
     .details_text .book_now,.detailed_room_text_m .book_now_m{
         display: flex;
         justify-content: center;
-        margin-top: 10%;
+        margin-top: 5%;
         
     }
     
